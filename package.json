@@ -1,0 +1,44 @@
+{
+  "name": "dishwasher",
+  "version": "0.2.1",
+  "description": "Renders an array of objects with plates templates",
+  "keywords": [
+    "templates",
+    "templating",
+    "plates"
+  ],
+  "author": "Simon Bugert",
+  "contributors": [
+    {
+      "name":"Simon Bugert",
+      "email":"simon.bugert@gmail.com"
+    },
+    {
+      "name":"Duncan Kolba",
+      "email":"duncankolba@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sbugert/dishwasher"
+  },
+  "engines": [
+    "node"
+  ],
+  "main": "./lib/dishwasher.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "dependencies": {
+    "plates": "~0.4.8"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.14.0"
+  }
+}
