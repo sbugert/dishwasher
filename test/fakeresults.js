@@ -20,7 +20,6 @@ result.examplesmaster =
   '</html>\n';
 
 result.examplescompletecollection =
-
   '<!DOCTYPE html>'+
   '<html lang=\"en\">'+
     '<head>'+
@@ -37,16 +36,21 @@ result.examplescompletecollection =
       '<div id=\"cars\">'+
         '<div id=\"location\">Stuttgart</div>\n'+
         '<div id=\"time\">28-10-2013</div>\n'+
+        '<div class=\"description\">This car is pretty good</div>\n'+
+        '<div class=\"title\">I am the first car</div>\n'+
         '<div id=\"location\">Ruesselsheim</div>\n'+
         '<div id=\"time\">12-11-2013</div>\n'+
+        '<div class=\"description\">This car is bad</div>\n'+
+        '<div class=\"title\">I am the second car</div>\n'+
       '</div>'+
       '<div id=\"empl\">'+
-        '<div id=\"description\">I am a pretty good employee</div>\n'+
+        '<div class=\"description\">I am a pretty good employee</div>\n'+
         '<div id=\"title\">I am the employee of the month</div>\n'+
       '</div>'+
       '<div id=\"motd\">'+
-        '<div id=\"description\">You\'ve got mail</div>\n'+
+        '<div class=\"description\">You\'ve got mail</div>\n'+
         '<div id=\"title\">I am the message of the day</div>\n'+
+        '<img id=\"icon\" src=\"letter.png\"/>\n'+
       '</div>'+
     '</body>'+
   '</html>\n';
@@ -66,15 +70,17 @@ result.examplessinglecollection =
       '<div id=\"cars\">'+
       '</div>'+
       '<div id=\"empl\">'+
-        '<div id=\"description\">I am a pretty good employee</div>\n'+
+        '<div class=\"description\">I am a pretty good employee</div>\n'+
         '<div id=\"title\">I am the employee of the month</div>\n'+
       '</div>'+
       '<div id=\"motd\">'+
-        '<div id=\"description\">You\'ve got mail</div>\n'+
+        '<div class=\"description\">You\'ve got mail</div>\n'+
         '<div id=\"title\">I am the message of the day</div>\n'+
+        '<img id=\"icon\" src=\"letter.png\"/>\n'+
       '</div>'+
     '</body>'+
   '</html>\n';
+
 
 result.examplesmulticollection =
 
@@ -94,8 +100,12 @@ result.examplesmulticollection =
       '<div id=\"cars\">'+
         '<div id=\"location\">Stuttgart</div>\n'+
         '<div id=\"time\">28-10-2013</div>\n'+
+        '<div class=\"description\">This car is pretty good</div>\n'+
+        '<div class=\"title\">I am the first car</div>\n'+
         '<div id=\"location\">Ruesselsheim</div>\n'+
         '<div id=\"time\">12-11-2013</div>\n'+
+        '<div class=\"description\">This car is bad</div>\n'+
+        '<div class=\"title\">I am the second car</div>\n'+
       '</div>'+
       '<div id=\"empl\">'+
       '</div>'+

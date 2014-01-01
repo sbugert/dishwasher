@@ -25,6 +25,7 @@ examples.employee = {
 examples.motd = {
   title:'I am the message of the day',
   description:'You\'ve got mail',
+  icon: 'letter.png',
   partial:'motd',
   destination:'motd',
   mastertemplate:'master',
